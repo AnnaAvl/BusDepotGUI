@@ -1,0 +1,5 @@
+DefaultTableModel model = new DefaultTableModel(new String[]{"1", "2", "3", "4","5","6"}, 0);
+                model.addRow(new String[]{"","","","","","6","7"});
+                //tbBase = new JTable(model);
+                tbBase.setModel(model);
+                //tbBase.revalidate();
